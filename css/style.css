@@ -237,6 +237,11 @@ body {
 
 .tabs-content {
   margin-right: 70px;
+  display: none;
+}
+
+.visible {
+  display: block;
 }
 
 .tabs-item {
@@ -395,7 +400,7 @@ body {
   .button {
     width: 100%;
   }
-  
+
   .poster {
     display: inline-block;
     margin-top: -20%;
